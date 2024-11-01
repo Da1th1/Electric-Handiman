@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 import { Tool, Truck, Users, Leaf, Mail, Phone, MapPin, Infinity } from 'lucide-react';
 import Navbar from "../Components/Navbar";
 import Image from "next/image";
-import D13 from "../assets/D13.jpg";
+import D13 from "../assets/d13.jpg";
 import { Medal } from "lucide-react";
 import BlurFade from "@/components/magicui/blur-fade";
 import Footer from "../Components/Footer";
