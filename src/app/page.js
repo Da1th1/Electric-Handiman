@@ -4,7 +4,7 @@ import Image from "next/image";
 import dynamic from 'next/dynamic';
 import './CSS/home.css'
 import React, { useState, useEffect,useRef } from "react";
-import { HardHat, Truck, Building, CheckCircle, AwardIcon, MapIcon, PhoneIcon, MailIcon, KeyRound, Leaf } from 'lucide-react';
+import { Lamp, Plug, Microwave, CheckCircle, AwardIcon, MapIcon, PhoneIcon, MailIcon, KeyRound, Leaf } from 'lucide-react';
 import BlurFade from "@/components/magicui/blur-fade";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import MarqueeCard from "./Components/Marquee";
@@ -140,10 +140,10 @@ const LazyLoadImage = ({ src, alt, className }) => {
           <Image src={gogreen} alt="Go Green" width={100} height={100}/>
           </div>
             
-            <p>Over 15 years of experience, we specialize in providing high-quality construction solutions for residential, commercial, and industrial projects. Our team of skilled professionals is committed to delivering excellence, safety, and innovation in every project we undertake. LTPS INFRA PVT. LTD. We believe in building not only structures but also long-lasting relationships with our clients. Trust us to turn your dreams into reality and make your construction journey seamless and rewarding. 
+            <p>Are you looking for a reliable local electrician to help with those small but crucial electrical jobs around your home or business in Dublin 13? Electric Handiman is here to make sure your lights are always bright, your appliances are wired perfectly, and every outlet in your space works like a charm. Whether you're tackling minor fixes or looking for safe electrical upgrades, Electric Handiman is your go-to partner for electrical solutions. 
                 <br></br>
                 <br></br>
-                Contact us today to discuss your upcoming project, and let's build a future together!</p>
+                Contact us today to discuss your requirements, we are here to help and will provide a quote over the phone free of charge!</p>
             <div className="info-btn">
               <Link href="Contact">
               <Button text={"Start Now!"} ></Button>
@@ -166,24 +166,24 @@ const LazyLoadImage = ({ src, alt, className }) => {
             <div className="service-cards">
                 <div className="service-card">
                     <div className="icon">
-                      <HardHat />
+                    <Lamp />
                     </div>
-                    <h3>Earth Works</h3>
-                    <p>Earth-filling, excavation, and hill cutting</p>
+                    <h3>Lighting Installation & Repair</h3>
+                    <p>Replace that flickering light bulb or upgrade to energy-efficient LED lighting throughout your home. We make your home shine brighter!</p>
                 </div>
                 <div className="service-card">
                     <div className="icon">
-                      <Truck />
+                      <Plug />
                     </div>
-                    <h3>Transportation</h3>
-                    <p>Heavy duty transportation of soil, murum, and sand</p>
+                    <h3>Socket & Switch Installation</h3>
+                    <p>Need extra power points? Whether it’s for your living room, kitchen, or office space, we can add or repair sockets and switches where needed.</p>
                 </div>
                 <div className="service-card">
                     <div className="icon">
-                      <Building/>
+                      <Microwave />
                     </div>
-                    <h3>Infrastructure</h3>
-                    <p>Roads, highways, dams, and canals</p>
+                    <h3>Appliance Wiring & Repairs</h3>
+                    <p>Get those new appliances up and running safely. We can install cookers, extractors, and even wall-mounted TVs.</p>
                 </div>
             </div>
         </div>

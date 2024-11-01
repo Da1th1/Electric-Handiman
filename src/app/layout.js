@@ -6,8 +6,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "LTPS Infra Pvt Ltd",
-  description: "Over 15 years of experience, we specialize in providing high-quality construction solutions for residential, commercial, and industrial projects. Our team of skilled professionals is committed to delivering excellence, safety, and innovation in every project we undertake. LTPS INFRA PVT. LTD. We believe in building not only structures but also long-lasting relationships with our clients. Trust us to turn your dreams into reality and make your construction journey seamless and rewarding.",
+  title: "Electric Hand💡man",
+  description: "Electric Handiman provides reliable, affordable electrical handyman services in Dublin 13, specializing in small but crucial jobs for local residents. Quick response and quality service for your home.",
   
 };
 

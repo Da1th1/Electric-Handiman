@@ -15,8 +15,7 @@ export default function Navbar() {
         <div className="nav-content">
           {/* Wrap the logo with Link to redirect to Home */}
           <a href="/" className="logo">
-            <Image src={company_logo} width={35} height={30} alt="LTPS INFRA PVT. LTD." />
-            <span>LTPS INFRA</span>
+            <span width={35} height={30} alt="Electric Handiman.">ELECTRIC HAND💡MAN</span>
           </a>
           
           <div className="nav-links">
@@ -26,7 +25,7 @@ export default function Navbar() {
             <a href="/Services" className={pathname === "/Services" ? "active" : ""}>
               Services
             </a>
-            <a href="/Projects" className={pathname === "/Projects" ? "active" : ""}>
+            <a href="/Projects" className={pathname === "/Projects" ? "inactive" : ""}>
               Projects
             </a>
             <a href="/About" className={pathname === "/About" ? "active" : ""}>

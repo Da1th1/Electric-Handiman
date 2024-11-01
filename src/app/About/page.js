@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 import { Tool, Truck, Users, Leaf, Mail, Phone, MapPin, Infinity } from 'lucide-react';
 import Navbar from "../Components/Navbar";
 import Image from "next/image";
-import Road from "../assets/road-construction.jpg";
+import D13 from "../assets/D13.jpg";
 import { Medal } from "lucide-react";
 import BlurFade from "@/components/magicui/blur-fade";
 import { ChartNoAxesCombined } from "lucide-react";
@@ -14,7 +14,7 @@ import NumberTicker from "@/components/magicui/number-ticker";
 import forest from "../assets/forest.jpg";
 import Footer from "../Components/Footer";
 import InfoGrid from "../Components/InfoCard";
-import CEO from "../assets/mock_ceo.jpg";
+import elect from "../assets/elect.jpg";
 
 const AboutUs = () => {
   const [activeTab, setActiveTab] = useState('expertise');
@@ -47,26 +47,24 @@ const AboutUs = () => {
        
        <div className="about-us-container">
        <BlurFade delay={0.25} inView>
-       <h2>Company Profile</h2>
+       <h2>Dublin 13's Trusted Electrical Handyman</h2>
       <div className="about-profile">
         
         
 
         <div className="about-profile-image">
-          <Image src={Road} alt="Truck" />
+          <Image src={D13} alt="Mountain Side" />
         </div>
 
         <div className="about-profile-text">
         
         <p>
-          LTPS INFRA PVT. LTD. is a leading construction company in India. We specialize in earth-filling,
-          excavation works, dam and canal works, road works and highways, SEZ's development, township development,
-          and mining transportation works. Our team has over 15 years of experience in the industry, and we have
-          successfully completed over 500 projects.
+        Electric Hand💡man provides reliable, affordable electrical handyman services in Dublin 13, specializing in small but crucial jobs for local residents. Quick response and quality service for your home.
+
+
 
 <br /><br />
-          We are committed to delivering quality projects on time and within budget. We prioritize the safety of our
-          employees, subcontractors, and the public. We are also committed to sustainable practices and materials.
+Are you looking for a reliable local electrician to help with those small but crucial electrical jobs around your home or business in Dublin 13? Electric Hand💡man is here to make sure your lights are always bright, your appliances are wired perfectly, and every outlet in your space works like a charm. Whether you're tackling minor fixes or looking for safe electrical upgrades, Electric Hand💡man is your go-to partner for electrical solutions.
 
           
         </p>
@@ -77,24 +75,23 @@ const AboutUs = () => {
       <BlurFade delay={0.25} inView>
       <div className="about-management">
         <div className="management-lead">
-          <h2>Meet Our Management Team</h2>
+          <h2>Why Choose Electric Hand💡man?</h2>
           <div className="management-grid">
             <div className="management-card">
               <div className="management-icon">
-              <Image src={CEO} alt="Road" />
+              <Image src={elect} alt="Road" />
               </div>
               <div className="management-text">
-              <h3>Lahu Patil</h3>
-              <p>Managing Director</p>
-              </div>
-            </div>
-            <div className="management-card">
-             <div className="management-icon">
-              <Image src={CEO} alt="Road" />
-              </div>
-              <div className="management-text">
-              <h3>Prashant Patil</h3>
-              <p>Managing Director</p>
+                <p>Electric Hand💡man specializes in handling minor electrical tasks for local customers, bringing expert skills and personalized service right to your doorstep. We understand that many electrical jobs are often too small for big contractors, but too important to ignore. That's where we come in!
+                <br /><br />
+                <ul>
+                  <li>Local Expertise: We know Dublin 13 inside out. We’re not just another electrical service—we’re part of your community, dedicated to helping our neighbours.</li>
+                  <br />
+                  <li>Affordable Rates: Our pricing is fair, transparent, and tailored to smaller jobs. No hidden costs, no surprises—just straightforward, value-for-money service.</li>
+                  <br />
+                  <li>Quick Response Time: Our local presence means we can respond to your call faster. No more waiting around for days to have that socket fixed!</li>
+                </ul>
+              </p>
               </div>
             </div>
             
@@ -109,9 +106,9 @@ const AboutUs = () => {
         <Medal size={48} color="
         #f1c40f
         " className="medal"/>
-        <h2>Our Vision</h2>
+        <h2>Our Promise</h2>
         <p>
-          Our vision is to be the leading construction company in India, known for delivering quality projects on time and within budget.
+        At Electric Hand💡man, we promise to deliver reliable, high-quality service for every job, no matter how small. Our commitment to our customers is rooted in honesty, professionalism, and a dedication to excellence.
         </p>
       </div>
       </BlurFade>
@@ -127,10 +124,11 @@ const AboutUs = () => {
           <Leaf size={48} color="#FFD700" />
           {/* </div> */}
         
-        <h2 className="card-title">Our Go-Green Policy</h2>
+        <h2 className="card-title">The Local Difference</h2>
         <p>
-          We are committed to protecting our environment. As part of our go-green initiative, 
-          we plant 100 trees for every completed project.
+        Electric Hand💡man is different because we genuinely care about the Dublin 13 community. We take the time to get the job done right, and our customers’ satisfaction is our highest priority. Our team is fully qualified, insured, and passionate about delivering top-quality electrical services to every household.
+        <br /><br />
+        When you call Electric Hand💡man, you're not just getting a handyman—you're getting a trusted local partner dedicated to keeping your home comfortable, safe, and fully functional. Plus, since we’re based right here in Dublin 13, you’ll always know who you’re working with.
         </p>
         </div>
       </div>

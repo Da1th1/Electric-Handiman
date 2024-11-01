@@ -75,7 +75,7 @@ body{
 }
 
 .management-grid .management-card{
-    max-width: 400px;
+    max-width: 900px;
     background-color: #f3f4f6;
     padding: 1rem;
     border-radius: 8px;
@@ -93,12 +93,11 @@ body{
 
 .management-grid .management-card .management-icon img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
     transition: all 0.3s ease-in-out;
 }
 

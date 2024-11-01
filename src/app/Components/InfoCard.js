@@ -10,23 +10,22 @@ const InfoGrid = () => {
           title="Our Expertise" 
           icon={<BarChart2 size={48} />}
           items={[
-            "Earth-Filling and Earth-Cutting",
-            "Excavation Works",
-            "Dam and Canal Works",
-            "Road Works and Highways",
-            "SEZ's Development",
-            "Township Development",
-            "Mining Transportation Works"
+            "Replacement Lighting and Sockets",
+            "Wifi Fixing and Installation",
+            "Hobs and Cookers",
+            "Outside Lighting",
+            "Fault Finding",
+            "TV Installations",
+            "Bathroom Extractor Fans",
           ]}
         />
         <InfoCard 
           title="Our Commitment" 
           icon={<Infinity size={48} />}
           items={[
-            "Quality projects delivered on time and within budget",
-            "Prioritizing safety of employees, subcontractors, and the public",
-            "Commitment to sustainable practices and materials",
-            "15+ years experience with 10 million+ cubic meter earth filling"
+            "Community Focus: We strive to support and uplift the Dublin 13 community through our services.",
+            "Continuous Improvement: We keep ourselves updated with the latest industry standards and training to offer the best solutions.",
+            "Customer-Centric Approach: Your needs come first, and we tailor our services to meet your specific requirements."
           ]}
         />
       </div>
