@@ -9,9 +9,6 @@ import Image from "next/image";
 import D13 from "../assets/D13.jpg";
 import { Medal } from "lucide-react";
 import BlurFade from "@/components/magicui/blur-fade";
-import { ChartNoAxesCombined } from "lucide-react";
-import NumberTicker from "@/components/magicui/number-ticker";
-import forest from "../assets/forest.jpg";
 import Footer from "../Components/Footer";
 import InfoGrid from "../Components/InfoCard";
 import elect from "../assets/elect.jpg";
@@ -82,7 +79,7 @@ Are you looking for a reliable local electrician to help with those small but cr
               <Image src={elect} alt="Road" />
               </div>
               <div className="management-text">
-                <p>Electric Hand💡man specializes in handling minor electrical tasks for local customers, bringing expert skills and personalized service right to your doorstep. We understand that many electrical jobs are often too small for big contractors, but too important to ignore. That's where we come in!
+                <p>Electric Hand💡man specializes in handling minor electrical tasks for local customers, bringing expert skills and personalized service right to your doorstep. We understand that many electrical jobs are often too small for big contractors, but too important to ignore. That's where we come in!</p>
                 <br /><br />
                 <ul>
                   <li>Local Expertise: We know Dublin 13 inside out. We’re not just another electrical service—we’re part of your community, dedicated to helping our neighbours.</li>
@@ -91,7 +88,6 @@ Are you looking for a reliable local electrician to help with those small but cr
                   <br />
                   <li>Quick Response Time: Our local presence means we can respond to your call faster. No more waiting around for days to have that socket fixed!</li>
                 </ul>
-              </p>
               </div>
             </div>
             

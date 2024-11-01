@@ -4,7 +4,7 @@ import img3 from "../assets/3.png";
 export default [
     {
       title: "Empowering Your Home, One Fix at a Time",
-      description: "ElectriHandiman - Your trusted local partner for reliable electrical solutions",
+      description: "Electric Hand💡man - Your trusted local partner for reliable electrical solutions",
       buttonText: "Get Started",
       image: img1,
       page: "Services",
