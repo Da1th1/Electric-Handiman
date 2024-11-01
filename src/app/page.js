@@ -136,8 +136,8 @@ const LazyLoadImage = ({ src, alt, className }) => {
 <div className="info">
         <div className="info-container">
           <div className="info-head">
-          <Image src={fifteen} alt="15+" width={100} height={100}/>
-          <Image src={gogreen} alt="Go Green" width={100} height={100}/>
+          {/* <Image src={fifteen} alt="15+" width={100} height={100}/>
+          <Image src={gogreen} alt="Go Green" width={100} height={100}/> */}
           </div>
             
             <p>Are you looking for a reliable local electrician to help with those small but crucial electrical jobs around your home or business in Dublin 13? Electric Handiman is here to make sure your lights are always bright, your appliances are wired perfectly, and every outlet in your space works like a charm. Whether you're tackling minor fixes or looking for safe electrical upgrades, Electric Handiman is your go-to partner for electrical solutions. 
@@ -190,7 +190,7 @@ const LazyLoadImage = ({ src, alt, className }) => {
     </div>
 </BlurFade>
 
-<BlurFade delay={0.25} inView>
+{/* <BlurFade delay={0.25} inView>
     <div className="projects">
         <div className="projects-container">
             <h2>Featured Projects</h2>
@@ -230,9 +230,9 @@ const LazyLoadImage = ({ src, alt, className }) => {
             </div>
         </div>
     </div>
-</BlurFade>
+</BlurFade> */}
 
-<BlurFade delay={0.25} inView>
+{/* <BlurFade delay={0.25} inView>
     <div className="testimonials">
         <div className="testimonials-container">
             <h2 style={{color:"#2563eb"}}>Our Customers</h2>
@@ -254,7 +254,7 @@ const LazyLoadImage = ({ src, alt, className }) => {
             
         </div>
     </div>
-</BlurFade>
+</BlurFade> */}
 
 <BlurFade delay={0.25} inView>
     <div className="about-us">
@@ -314,18 +314,18 @@ throughout the entire construction process.</p>
                 <div className="sub-contact-info">
                     <div className="icon"><MapIcon/></div>
                     <p>
-                        113, A-Wing, Sai Arcade, Opp. Panvel ST Stand, Panvel, Dist. Raigad
+                        Red Arches Drive, The Coast, Baldoyle, Dublin 13
                     </p>
                   
                     
                 </div>
                 <div className="sub-contact-info">
                     <div className="icon"><PhoneIcon/></div>
-                    <p>9323823009 / 9537577777</p>
+                    <p>087 9762 554</p>
                 </div>
                 <div className="sub-contact-info">
                     <div className="icon"><MailIcon/></div>
-                    <p>ltpsinfra@gmail.com</p>
+                    <p>dave@electrichandiman</p>
                 </div>
             </div>
             </div>
