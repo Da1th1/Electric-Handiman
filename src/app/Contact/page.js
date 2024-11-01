@@ -25,7 +25,7 @@ export default function Contact(){
                         <MapIcon size={48} />
                         <h3 className="card-title">Address</h3>
                         <p className="card-description">
-                        113, A-Wing, Sai Arcade, Opp. Panvel ST Stand, Panvel, Dist. Raigad, Maharashtra, India - 410206
+                        Red Arches Drive, The Coast, Baldoyle, Dublin 13
                         </p>
                         
                     
@@ -33,19 +33,19 @@ export default function Contact(){
                     <div className="contact-card">
                         <FileQuestionIcon size={48} />
                         <h3 className="card-title">General Inquiries</h3>
-                        <p className="card-description">For general inquiries, please email us at <b>ltpsinfra@gmail.com</b>
+                        <p className="card-description">For general enquiries, please email us at <b>dave@electrichandiman.com</b>
                         </p>
                     </div>
                     <div className="contact-card">
                         <PhoneCallIcon size={48} />
-                        <h3 className="card-title">Sales</h3>
-                        <p className="card-description">For sales inquiries, please email us at <b>ltpsinfra@gmail.com</b>
+                        <h3 className="card-title">Projects</h3>
+                        <p className="card-description">For project enquiries, please call us at <b>087 9762 554</b>
                         </p>
                     </div>
                     <div className="contact-card">
                         <HelpCircleIcon size={48} />
                         <h3 className="card-title">Support</h3>
-                        <p className="card-description">For support inquiries, please call us at <b>9323823009 / 9537577777</b>
+                        <p className="card-description">For support enquiries, please call us at <b>087 9762 554</b>
                         </p>
                     </div>
                 </div>

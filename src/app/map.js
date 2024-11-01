@@ -132,13 +132,13 @@ export default function Map() {
 
   return (
   
-      <MapContainer center={[18.98878, 73.11013]} zoom={13} whenCreated={setMap} onClick={handleClick}>
+      <MapContainer center={[53.40248322103904, -6.139278180027345]} zoom={13} whenCreated={setMap} onClick={handleClick}>
         <TileLayer
           attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
         {/* <MinimapControl position="bottomleft" /> */}
-        <Marker icon={DefaultIcon} position={[18.98878, 73.11013]}>
+        <Marker icon={DefaultIcon} position={[53.40248322103904, -6.139278180027345]}>
         <Popup>
             <div className='Popup'>
                 <h3>LTPS INFRA  PVT. LTD</h3>

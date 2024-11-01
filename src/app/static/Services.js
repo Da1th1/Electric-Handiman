@@ -1,159 +1,158 @@
-import earthFilling from '../assets/earth-filling.jpg'
-import excavationWorks from '../assets/excavation.jpg'
-import damWorks from '../assets/dam.jpg'
-import seaPortWorks from '../assets/sea-port.jpg'
-import canalWorks from '../assets/canal.jpg'
-import roadAndHighwayConstruction from '../assets/road-construction.jpg'
-import sezDevelopment from '../assets/railway.png'
-import hillCutting from '../assets/hill-cutting.jpg'    
-import townshipDevelopment from '../assets/township.jpg'
-import shippingCorporationWorks from '../assets/shipping.jpg'
-import containerYards from '../assets/container.png'
-import jettiesAndCoalFieldWorks from '../assets/jettis.jpg'
-import miningTransportationWorks from '../assets/minning-transport.jpg'
-import heavyDutyTransportation from '../assets/heavy-transport.jpg'
-import ecoFriendlyCompaction from '../assets/lake-beautification.png'
-import mgpPipelineWorks from '../assets/pipeline.jpg'
-import generalCivilWorks from '../assets/highway.jpg'
-import { Building2, Truck, Leaf } from "lucide-react";
+import outdoorLighting from '../assets/outdoorLighting.jpg'
+import socketSwitchInstallation from '../assets/socketSwitchInstallation.jpg'
+import applianceWiringRepairs from '../assets/applianceWiringRepairs.jpg'
+import smokeAlarms from '../assets/smokeAlarms.jpg'
+import fuseBoxUpgrades from '../assets/fuseBoxUpgrades.jpg'
+import electricalSafetyInspections from '../assets/electricalSafetyInspections.jpg'
+import electricalTroubleshooting from '../assets/electricalTroubleshooting.png'
+import ceilingFanInstallation from '../assets/ceilingFanInstallation.jpg'    
+import homeRewiring from '../assets/homeRewiring.jpg'
+import dataCablingNetwork from '../assets/dataCablingNetwork.jpg'
+import evChargerInstallation from '../assets/evChargerInstallation.png'
+import gardenPowerSockets from '../assets/gardenPowerSockets.jpg'
+import extractorFanInstallation from '../assets/extractorFanInstallation.jpg'
+import emergencyLighting from '../assets/emergencyLighting.jpg'
+import kitchenApplianceInstallation from '../assets/kitchenApplianceInstallation.png'
+import doorbellCameraInstallation from '../assets/doorbellCameraInstallation.jpg'
+import smartHomeIntegration from '../assets/smartHomeIntegration.jpg'
+import { Fan, Plug, BellRing, SquareActivity, ChefHat, SmartphoneNfc, Microwave, Fence, AlarmSmoke, TicketX, HardHat, LampWallDown, SearchCheck, House, HardDriveUpload, Cable } from "lucide-react";
 import { content } from '../../../tailwind.config'
 
 export default [
-    { 
-        name: "Earth-Filling and Earth-Cutting", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/earth-filling-and-earth-cutting" , 
-        path : "earth-filling-and-earth-cutting",
-        image: earthFilling,
-        content : "**Earth-Filling and Earth-Cutting** are two essential processes in civil construction and infrastructure development.\n**Earth-Filling** involves adding soil, sand, or other materials to low-lying areas to raise their level. This process is often used in land development, construction projects, and the creation of embankments, roads, and dams. The purpose is to create a stable and elevated platform suitable for construction or development. Advanced techniques, such as scientific and eco-friendly methods of compaction, are used to ensure the filled material is stable and can support future construction.\n**Earth-Cutting**, on the other hand, refers to the excavation or removal of earth from high points to lower the ground level. This is necessary when leveling a site, creating roadways, or preparing a foundation. Hill cutting and excavation for canals and dams are common examples of earth-cutting. This process is critical for ensuring the even grading of construction sites and often involves the use of heavy machinery like excavators and dozers.\nBoth earth-filling and earth-cutting are crucial for site preparation, ensuring the land is ready for infrastructure development like roads, highways, and townships. These processes are typically part of larger land reclamation and development efforts."
+    {
+    name: "Socket & Switch Installation",
+    icon: <Plug className="w-6 h-6" />,
+    link:"/Services/socket-switch-installation" ,
+    path : "socket-switch-installation",
+    image: socketSwitchInstallation,
+    content : "Need extra power points? Whether it’s for your living room, kitchen, or office space, we can add or repair sockets and switches where needed, ensuring that each addition is both practical and seamlessly integrated into your home's design. We also specialize in USB-integrated outlets, allowing you to charge your devices more conveniently without needing bulky adapters. These outlets are ideal for modern homes where multiple devices need charging at once, streamlining your power needs. No matter what kind of installation you need, from simple sockets to complex switch panels, we make sure everything is up to code and optimized for your convenience. Our expertise also extends to installing specialty outlets, such as those for appliances, which often require higher current capacities. We make sure every socket or switch we install meets all safety standards, giving you confidence that your home is both functional and secure. We can also assist in planning the optimal placement of outlets and switches, ensuring maximum usability and efficiency throughout your living or work space."
     },
-    { 
-        name: "Excavation Works", 
-        icon: <Truck className="w-6 h-6" /> , 
-        link:"/Services/excavation-works", 
-        path : "excavation-works",
-        image: excavationWorks,
-        content: "**Excavation work** is a fundamental part of civil engineering and construction projects, involving the process of digging, removing, and relocating earth or rock to create a stable foundation or prepare land for development. It is commonly used in projects such as foundation laying for buildings, roadways, dams, and other infrastructure.\nExcavation is crucial for shaping the land, ensuring proper drainage, and preparing the ground for construction. It may involve different types of digging, including trenching, tunneling, dredging, and grading. The work typically requires heavy machinery such as excavators, bulldozers, and backhoes, which are used to remove large amounts of earth efficiently.\nThere are also specialized techniques like **controlled blasting** used in rocky terrains to break down materials that are difficult to dig. Safety is a major concern in excavation, as improperly supported or unstable soil can lead to cave-ins, posing risks to workers and equipment. Proper planning, soil testing, and the use of safety measures like trench boxes and sloping are critical to avoid hazards.\nExcavation is not just limited to digging but also includes tasks such as clearing land, grading for roads, or preparing sites for **seaports, dams, and canals**. Eco-friendly practices, like scientific methods for compaction, may be integrated to reduce environmental impact."
+    {
+    name: "Appliance Wiring & Repairs",
+    icon: <Microwave className="w-6 h-6" /> ,
+    link:"/Services/appliance-wiring-repairs",
+    path : "appliance-wiring-repairs",
+    image: applianceWiringRepairs,
+    content: "Get those new appliances up and running safely with our expert appliance wiring and repair services. We handle installations for cookers, extractors, wall-mounted TVs, and more, ensuring that everything is properly wired for safety and efficiency. Our team specializes in providing the correct wiring solutions for your household appliances, which is crucial for their longevity and for preventing electrical hazards. We make sure that all wiring is up to code, giving you peace of mind that your home and appliances are secure. If you're experiencing issues with your current appliances, we also offer repair services to troubleshoot and fix electrical faults, so you can enjoy uninterrupted performance."
     },
-    { 
-        name: "Dam Works", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/dam-works" , 
-        path : "dam-works", 
-        image: damWorks,
-        content:"**Dam work** involves the construction, maintenance, and repair of dams, which are crucial structures used to manage water resources. Dams serve multiple purposes, including water storage for irrigation, flood control, hydropower generation, and supplying drinking water.\nThe process begins with site selection, taking into account factors like topography, geology, and hydrology. Once a suitable location is identified, excavation work is conducted to prepare the foundation. Earth-filling or concrete pouring follows, depending on the type of dam being constructed, such as earth-filled, rock-filled, or concrete gravity dams.\nDuring construction, advanced engineering techniques ensure the dam’s stability, durability, and capacity to hold large volumes of water. Spillways, outlets, and other mechanisms are incorporated to control water flow and prevent over-topping, especially during heavy rainfall or floods.\nMaintenance involves regular inspections, ensuring the dam’s structural integrity, monitoring water levels, and addressing issues like erosion, sediment buildup, and leakage. The use of eco-friendly and scientific methods is becoming more common to minimize environmental impacts and ensure the dam's long-term sustainability.\nDam projects are large-scale and require coordination between engineers, environmental experts, and local authorities to ensure safety, environmental protection, and reliable water resource management."
+    {
+    name: "Smoke Alarms & Safety Checks",
+    icon: <AlarmSmoke className="w-6 h-6" />,
+    link:"/Services/smoke-alarms-safety-checks" ,
+    path : "smoke-alarms-safety-checks",
+    image: smokeAlarms,
+    content: "Make sure your home is safe and secure with our smoke alarm installation and safety check services. Properly installed smoke alarms are your first line of defense in case of a fire, providing early warnings to help you evacuate in time. We install interconnected smoke alarms for added safety, ensuring that alarms throughout the house activate simultaneously. Our comprehensive safety checks also help identify any potential electrical hazards in your home, allowing us to address them before they become a serious problem. Trust us to make your home a safer place for you and your family."
     },
-    { 
-        name: "Sea Port Works", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/sea-port-works" , 
-        path : "sea-port-works", 
-        image: seaPortWorks,
-        content: "**Sea port work** involves the development, construction, and maintenance of ports, harbors, and marine facilities, which are essential for supporting maritime trade and transportation. This work is complex and includes various activities such as land reclamation, dredging, construction of docks, jetties, terminals, and breakwaters, and the installation of infrastructure for cargo handling, storage, and transport.\nDredging is often required to deepen water channels, allowing ships to dock safely. Reclamation involves filling areas of water with materials like sand or rocks to create new land for port facilities. Construction tasks include building piers, wharfs, and other essential structures for docking ships and loading/unloading goods. Additionally, specialized equipment, such as cranes and conveyor systems, is installed to facilitate the movement of cargo.\nSea port projects also involve environmental considerations, ensuring minimal impact on marine ecosystems and coastline stability. Advanced techniques in soil compaction and erosion control are often employed.\nSea ports are crucial to global trade, connecting maritime routes to inland transportation networks like rail and road. The work contributes significantly to the economy by facilitating import/export activities, enhancing trade efficiency, and supporting related industries like shipping and logistics."
+    {
+    name: "Fuse Box Upgrades & Maintenance",
+    icon: <TicketX className="w-6 h-6" />,
+    link:"/Services/fuse-box-upgrades-maintenance" ,
+    path : "fuse-box-upgrades-maintenance",
+    image: fuseBoxUpgrades,
+    content: "An outdated fuse box can pose significant risks, including electrical fires and frequent power outages. Our fuse box upgrade and maintenance service ensures that your electrical panel is modern, reliable, and capable of handling your home's electrical demands. We upgrade old fuse boxes to new consumer units with circuit breakers and RCD protection, which significantly enhances the safety of your electrical system. Regular maintenance also ensures that your system is working at peak efficiency, minimizing the risk of unexpected failures. Let us help you make your home's electrical infrastructure safer and more efficient."
     },
-    { 
-        name: "Canal Works", 
-        icon: <Building2 className="w-6 h-6" /> , 
-        link:"/Services/canal-works", 
-        path : "canal-works",  
-        image: canalWorks,
-        content : "**Canal work** refers to the construction, maintenance, and management of man-made water channels designed for purposes such as irrigation, navigation, drainage, and flood control. These projects are critical in regions where water management is necessary for agricultural productivity, transportation, or flood prevention.\nThe process typically begins with surveying and planning to determine the best route and design, considering factors like water source, topography, soil type, and environmental impact. Excavation plays a significant role in canal work, as large amounts of earth need to be removed to form the canal path. The excavation is often followed by lining the canal with concrete or other materials to prevent water seepage, erosion, and structural damage.\nIn addition to excavation and lining, canal work may involve the construction of supporting structures like bridges, locks, and culverts, which help control water flow and allow crossings. Regular maintenance, such as clearing sediment, repairing embankments, and managing vegetation, ensures the long-term functionality of the canal.\nEco-friendly techniques and sustainable construction methods are increasingly used to minimize the environmental impact of canal projects. These systems are vital in ensuring the efficient delivery of water to farmlands, preventing flooding in vulnerable areas, and supporting local economies through transportation and irrigation."
+    {
+    name: "Electrical Safety Inspections",
+    icon: <HardHat className="w-6 h-6" /> ,
+    link:"/Services/electrical-safety-inspections",
+    path : "electrical-safety-inspections",
+    image: electricalSafetyInspections,
+    content : "Electrical safety is paramount for every household and business. Our electrical safety inspections are designed to identify and rectify any potential hazards in your system. We provide a detailed report covering the condition of your wiring, outlets, fuse box, and any other electrical components, offering recommendations for improvements or repairs as needed. Whether you're buying a new home or simply want to ensure that your current property is up to code, our inspection services provide the peace of mind you need. Stay safe and compliant with our thorough safety inspection solutions."
     },
-    { 
-        name: "Road and Highway Construction", 
-        icon: <Truck className="w-6 h-6" /> , 
-        link:"/Services/road-and-highway-construction", 
-        path : "road-and-highway-construction", 
-        image: roadAndHighwayConstruction,
-        content:"**Road and highway construction** is a critical aspect of infrastructure development, involving the planning, design, and execution of pathways for vehicular traffic. This process includes several stages, such as site preparation, earth-cutting, earth-filling, and the laying of multiple layers of materials to create durable and safe roads.\nThe construction starts with the **site survey** and planning, followed by **earthworks**, where the land is leveled, and necessary cuttings or fillings are made to ensure proper grading. Next, the **subgrade layer** is prepared, which acts as the foundation of the road. This is followed by laying a **base layer** of materials like crushed stones or gravel for structural integrity. On top of this, the **surface layer**, usually made of asphalt or concrete, is laid to provide a smooth and durable driving surface.\nRoad construction also involves creating proper **drainage systems** to prevent water accumulation, as well as the installation of safety features like signage, guardrails, and lighting. Highways are built to handle high-speed traffic over long distances, often requiring **reinforced concrete** and **multi-lane designs** for efficient traffic flow.\nModern highway construction emphasizes sustainability, using eco-friendly materials and techniques to minimize environmental impact."
+    {
+    name: "Outdoor Lighting Installation",
+    icon: <LampWallDown className="w-6 h-6" /> ,
+    link:"/Services/outdoor-lighting-installation",
+    path : "outdoor-lighting-installation",
+    image: outdoorLighting,
+    content:"Enhance the beauty, safety, and functionality of your garden or driveway with our outdoor lighting installation service. From pathway lights to security floodlights, we provide a variety of lighting solutions that meet your needs and aesthetics. Outdoor lighting not only highlights the features of your home but also improves safety by illuminating dark areas, helping to deter intruders. Our team takes care of everything from designing a lighting plan to installing and wiring the fixtures, ensuring that your outdoor space is both beautiful and secure."
     },
-    { 
-        name: "SEZ's Development", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/sezs-development", 
-        path : "sezs-development", 
-        image: sezDevelopment,
-        content:"**SEZ’s (Special Economic Zones) Development** refers to the creation of specially designated areas with economic regulations that differ from the rest of the country. These zones are designed to attract foreign investments, boost industrial growth, and promote exports by offering tax incentives, simplified regulations, and infrastructure support. SEZs play a crucial role in enhancing economic activity, improving employment opportunities, and encouraging technological advancements.\nThe development of SEZs typically involves significant infrastructure projects, including road construction, electricity, water supply, and telecommunications. These zones are strategically located near ports, highways, or airports to facilitate trade and logistics. Additionally, SEZs provide industrial parks, warehouses, and export-processing zones where businesses can operate with lower costs and fewer restrictions compared to other areas.\nGovernments offer incentives such as tax holidays, reduced import duties, and exemptions from certain labor and environmental regulations to encourage businesses to establish operations within SEZs. This environment fosters a business-friendly ecosystem, promoting both domestic and foreign investments. SEZs often focus on sectors like manufacturing, information technology, pharmaceuticals, and electronics.\nSEZ development contributes to national economic growth by enhancing exports, increasing foreign exchange earnings, and creating employment opportunities, thereby playing a vital role in global economic integration."
+    {
+    name: "Electrical Troubleshooting",
+    icon: <LampWallDown className="w-6 h-6" /> ,
+    link:"/Services/electrical-troubleshooting",
+    path : "electrical-troubleshooting",
+    image: electricalTroubleshooting,
+    content:"Is something wrong with your electrical system but you can't quite figure out what it is? Our electrical troubleshooting service is designed to diagnose and fix any issues you're experiencing. Whether it's flickering lights, frequent breaker trips, or outlets that aren't working, our experienced electricians use systematic methods to identify the root cause of the problem and resolve it efficiently. We ensure that your electrical system is safe, functional, and up to code, giving you the comfort of a trouble-free home."
     },
-    { 
-        name: "Hill Cutting", 
-        icon: <Truck className="w-6 h-6" />, 
-        link:"/Services/hill-cutting", 
-        path : "hill-cutting", 
-        image: hillCutting,
-        content : "**Hill cutting** is a civil engineering process that involves the excavation and removal of earth and rock from elevated areas to create level ground for construction or development. This process is essential in projects like road construction, building foundations, and land reclamation, where the natural terrain needs to be modified to accommodate infrastructure.\nHill cutting requires specialized equipment like excavators, bulldozers, and rock breakers to remove large volumes of material efficiently. The process involves careful planning, surveying, and engineering to ensure the stability of the cut slopes and prevent landslides or erosion. Proper drainage systems are also installed to manage water runoff and prevent soil erosion.\nHill cutting projects may involve challenges like rocky terrain, steep slopes, and environmental concerns. Techniques like controlled blasting, rock bolting, and slope stabilization are used to address these challenges and ensure the safety and stability of the cut slopes. Environmental impact assessments are conducted to minimize the effects of hill cutting on local ecosystems and habitats.\nHill cutting is a critical aspect of infrastructure development, enabling the construction of roads, railways, buildings, and other structures on hilly or mountainous terrain. The process requires expertise in geotechnical engineering, slope stability analysis, and environmental management to ensure safe and sustainable development."
+    {
+    name: "Ceiling Fan Installation & Repair",
+    icon: <Fan className="w-6 h-6" />,
+    link:"/Services/ceiling-fan-installation-repair",
+    path : "ceiling-fan-installation-repair",
+    image: ceilingFanInstallation,
+    content : "Ceiling fans are a cost-effective way to keep your home cool and comfortable. Our ceiling fan installation and repair service includes everything from wiring and mounting to balancing blades and replacing faulty parts. Proper installation ensures that your fan runs smoothly, efficiently, and safely. If your existing fan is wobbling or not functioning properly, we can repair it and restore it to its optimal performance. Our services ensure that your ceiling fan provides effective cooling without compromising on safety or style."
     },
-    { 
-        name: "Township Development", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/township-development" , 
-        path : "township-development", 
-        image: townshipDevelopment,
-        content:"**Township development** involves the planning, design, and construction of residential communities that offer a range of amenities and services to residents. These self-contained neighborhoods are designed to provide housing, commercial spaces, recreational facilities, and infrastructure in a well-organized and sustainable manner.\nTownships are typically developed on the outskirts of urban areas to accommodate population growth, reduce congestion, and provide affordable housing options. The planning process includes land acquisition, zoning regulations, environmental assessments, and infrastructure design. Roads, drainage systems, water supply, and electricity are essential components of township development.\nResidential areas in townships are designed to cater to different income groups, offering a mix of housing types like apartments, villas, and affordable homes. Commercial zones include shopping centers, schools, hospitals, and recreational facilities to meet the daily needs of residents. Green spaces, parks, and community areas are integrated to enhance the quality of life and promote social interaction.\nTownship development focuses on creating sustainable, walkable communities that prioritize environmental conservation, energy efficiency, and smart infrastructure. The goal is to provide residents with a high quality of life, access to essential services, and a sense of community while minimizing the impact on the environment."
+    {
+    name: "Home Rewiring Services",
+    icon: <SearchCheck className="w-6 h-6" />,
+    link:"/Services/home-rewiring-services" ,
+    path : "home-rewiring-services",
+    image: homeRewiring,
+    content:"Older homes often need rewiring to keep up with modern electrical demands and to ensure safety. Our home rewiring services provide a comprehensive update to your electrical system, replacing old, worn-out wiring with modern, safer alternatives. Rewiring can help prevent electrical fires, improve energy efficiency, and allow you to safely use all of your modern appliances and gadgets. We work carefully to minimize disruption to your home while ensuring that every aspect of the job is done to the highest standard, providing you with a safer and more efficient living environment."
     },
-    { 
-        name: "Shipping Corporation Works", 
-        icon: <Truck className="w-6 h-6" /> , 
-        link:"/Services/shipping-corporation-works", 
-        path : "shipping-corporation-works", 
-        image: shippingCorporationWorks,
-        content:"**Shipping corporation works** involve the construction, maintenance, and operation of shipping companies, which are essential for transporting goods and passengers by sea. These corporations manage fleets of vessels, cargo ships, and passenger liners to facilitate international trade, commerce, and travel.\nShipping corporations play a crucial role in the global economy, connecting countries, ports, and markets through maritime routes. The construction of ships, docks, terminals, and logistics facilities is part of the corporation's infrastructure development. Maintenance tasks include vessel repairs, dry-docking, and port operations to ensure the safe and efficient movement of goods.\nShipping corporations work closely with port authorities, customs agencies, and international organizations to comply with regulations, safety standards, and environmental requirements. They also provide services like freight forwarding, warehousing, and customs clearance to streamline the shipping process.\nIn addition to commercial shipping, corporations may offer passenger services, cruises, and tourism packages to generate revenue and promote travel. The industry is highly competitive, with a focus on cost efficiency, reliability, and sustainability. Technological advancements, such as digital tracking systems, automated cargo handling, and eco-friendly vessels, are transforming the shipping sector."
+    {
+    name: "Data Cabling & Network Installation",
+    icon: <HardDriveUpload className="w-6 h-6" /> ,
+    link:"/Services/data-cabling-network-installation",
+    path : "data-cabling-network-installation",
+    image: dataCablingNetwork,
+    content:"Reliable data cabling is essential for seamless internet connectivity and smooth communication within your home or business. Our data cabling and network installation services ensure that you have a robust network infrastructure to support all your technology needs. We install and configure Ethernet cables, routers, and network hardware, providing high-speed, reliable connections throughout your space. Whether you need to set up a home office or ensure that your entire property has consistent connectivity, our expert cabling services are here to help."
     },
-    { 
-        name: "Container Yards", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/container-yards", 
-        path : "container-yards", 
-        image: containerYards,
-        content:"**Container yards** are specialized facilities used for the storage, handling, and transfer of shipping containers between different modes of transportation, such as ships, trucks, and trains. These yards play a crucial role in the logistics and supply chain industry, facilitating the movement of goods across the globe.\nContainer yards are strategically located near ports, rail terminals, and highways to ensure efficient cargo transfer and distribution. The facilities are equipped with cranes, forklifts, and other handling equipment to load and unload containers from vessels, stack them for storage, and transfer them to trucks or trains for further transportation.\nThe layout of a container yard is designed to optimize space utilization, traffic flow, and container handling efficiency. Yards are organized into storage blocks, lanes, and bays, with clear signage and tracking systems to manage container movements. Security measures like fencing, surveillance cameras, and access control are implemented to protect the cargo.\nContainer yards are essential for international trade, enabling the seamless transfer of goods between different modes of transport. The yards support the movement of a wide range of products, from consumer goods to industrial materials, and play a critical role in the global economy."
+    {
+    name: "EV Charger Installation",
+    icon: <Cable className="w-6 h-6" />, 
+    link:"/Services/ev-charger-installation",
+    path : "ev-charger-installation",
+    image: evChargerInstallation,
+    content:"Electric vehicles are becoming more popular, and having a home charging station is a convenient way to keep your EV ready to go. Our EV charger installation service ensures that your home is equipped with a safe and efficient charging point, tailored to your specific vehicle requirements. We install both standard and rapid chargers, providing you with the flexibility to charge your EV as quickly as needed. Our experienced electricians ensure all installations meet safety standards and provide you with guidance on the best practices for using your new charger."
     },
-    { 
-        name: "Jetties and Coal Field Works", 
-        icon: <Building2 className="w-6 h-6" /> , 
-        link:"/Services/jetties-and-coal-field-works", 
-        path : "jetties-and-coal-field-works", 
-        image: jettiesAndCoalFieldWorks,
-        content:"**Jetties and coal field works** involve the construction, maintenance, and operation of jetties, which are structures built along the shoreline to provide berthing facilities for ships, boats, and other vessels. These facilities are essential for loading and unloading cargo, passengers, and fuel, as well as supporting marine activities like fishing, tourism, and transportation.\nJetties are typically constructed using concrete, steel, or timber piles driven into the seabed to create a stable platform for vessels to dock. The design of jetties considers factors like water depth, wave action, and vessel size to ensure safe berthing and loading operations. Fenders, bollards, and mooring lines are installed to secure ships and prevent damage.\nCoal field works involve the development and management of coal mines, including excavation, transportation, and processing of coal for energy production. These projects require specialized equipment like draglines, conveyors, and crushers to extract coal from the earth and transport it to processing plants or storage facilities.\nJetties and coal field works are critical for industries like mining, power generation, and shipping, providing essential infrastructure for the movement of goods and resources. Environmental considerations, safety regulations, and sustainability practices are integrated into these projects to minimize impacts on marine ecosystems and ensure the long-term viability of coal resources."
+    {
+    name: "Garden Power Sockets",
+    icon: <Fence className="w-6 h-6" /> ,
+    link:"/Services/garden-power-sockets",
+    path : "garden-power-sockets",
+    image: gardenPowerSockets,
+    content:"Outdoor power sockets are perfect for powering garden equipment, outdoor lighting, or even your barbecue. Our garden power socket installation service is designed to bring convenient, safe power access to your outdoor spaces. Whether you need sockets for garden tools, water features, or entertainment areas, we install weatherproof outlets that can withstand the elements. We ensure all outdoor power points comply with safety regulations, giving you reliable power exactly where you need it in your garden."
     },
-    { 
-        name: "Mining Transportation Works", 
-        icon: <Truck className="w-6 h-6" /> , 
-        link:"/Services/mining-transportation-works", 
-        path : "mining-transportation-works", 
-        image: miningTransportationWorks,
-        content:"**Mining transportation works** involve the movement of minerals, ores, and other materials from mining sites to processing plants, ports, or storage facilities. These works are essential for the mining industry, supporting the extraction, production, and distribution of raw materials for various industries.\nMining transportation works include the construction of haul roads, railways, conveyor systems, and pipelines to transport mined materials efficiently. The design of transportation routes considers factors like terrain, distance, volume, and cost to optimize the movement of materials. Specialized equipment like trucks, trains, and bulk carriers are used to transport minerals over long distances.\nThe transportation of mined materials involves challenges like dust control, erosion prevention, and environmental impact mitigation. Techniques like dust suppression, soil stabilization, and erosion control measures are implemented to minimize the effects of mining activities on local ecosystems and communities.\nMining transportation works are critical for the economic development of regions rich in mineral resources, providing jobs, infrastructure, and revenue. Sustainable practices, safety regulations, and environmental monitoring are essential components of these projects to ensure responsible resource extraction and transportation."
+    {
+    name: "Extractor Fan Installation",
+    icon: <Fan className="w-6 h-6" />, 
+    link:"/Services/extractor-fan-installation",
+    path : "extractor-fan-installation",
+    image: extractorFanInstallation,
+    content:"Extractor fans are essential for removing excess moisture, smoke, and odors from your kitchen or bathroom. Our extractor fan installation service ensures proper ventilation, improving air quality and preventing mold growth in damp areas. We install a variety of fan types, including ceiling-mounted, wall-mounted, and inline fans, depending on your specific needs. Our expert installations help maintain a fresh and healthy indoor environment, making your home more comfortable and reducing the risk of structural damage from condensation."
     },
-    { 
-        name: "Heavy Duty Transportation", 
-        icon: <Truck className="w-6 h-6" />, 
-        link:"/Services/heavy-duty-transportation" , 
-        path : "heavy-duty-transportation", 
-        image: heavyDutyTransportation,
-        content:"**Heavy-duty transportation** involves the movement of oversized, overweight, or specialized cargo that requires specialized equipment and handling. This type of transportation is used for transporting heavy machinery, construction materials, industrial equipment, and other large items that cannot be carried by standard vehicles.\nHeavy-duty transportation services include the use of specialized trucks, trailers, cranes, and lifting equipment to transport heavy and bulky items safely and efficiently. The vehicles are designed to handle heavy loads, provide stability during transport, and comply with regulations for oversized cargo. Rigging, securing, and lifting techniques are used to load and unload heavy items securely.\nThe transportation of heavy-duty cargo requires careful planning, route surveys, and coordination with authorities to ensure the safe movement of goods. Factors like road conditions, weight restrictions, and traffic management are considered to avoid accidents and damage to infrastructure. Pilot cars, escorts, and traffic control measures may be used to guide oversized loads through congested areas.\nHeavy-duty transportation plays a crucial role in industries like construction, mining, energy, and manufacturing, supporting the movement of equipment and materials critical for infrastructure projects. Safety, compliance with regulations, and environmental considerations are key aspects of heavy-duty transportation services."
+    {
+    name: "Emergency Lighting Installation",
+    icon: <SquareActivity className="w-6 h-6" /> ,
+    link:"/Services/emergency-lighting-installation" ,
+    path : "emergency-lighting-installation",
+    image: emergencyLighting,
+    content:"In the event of a power outage, emergency lighting can be a lifesaver, providing crucial visibility when normal lighting fails. Our emergency lighting installation service ensures that your home or business remains safely illuminated in the event of a blackout. We install battery-powered lights that automatically activate during a power failure, ensuring you and your family can navigate safely even in complete darkness. Our installations are compliant with safety standards, offering you peace of mind in emergencies."
     },
-    { 
-        name: "Eco-Friendly Compaction", 
-        icon: <Leaf className="w-6 h-6" />, 
-        link:"/Services/eco-friendly-compaction" , 
-        path : "eco-friendly-compaction", 
-        image: ecoFriendlyCompaction,
-        content:"**Eco-friendly compaction** refers to the process of densifying soil, aggregates, or other materials using environmentally sustainable methods that reduce energy consumption, emissions, and waste. Compaction is essential in construction, road building, and infrastructure projects to improve soil stability, reduce settlement, and enhance load-bearing capacity.\nTraditional compaction methods involve the use of heavy machinery like rollers, compactors, and vibratory equipment to compress materials and remove air voids. While effective, these methods can be energy-intensive, noisy, and generate emissions that impact air quality and the environment.\nEco-friendly compaction techniques focus on reducing the environmental footprint of compaction operations by using alternative methods like soil stabilization, geosynthetics, and recycled materials. These methods aim to improve soil properties, reduce compaction energy, and enhance long-term performance while minimizing environmental impact.\nEco-friendly compaction practices may include the use of bio-based stabilizers, recycled aggregates, and innovative technologies like soil reinforcement and geogrids. These techniques help reduce the carbon footprint of construction projects, conserve natural resources, and promote sustainable development.\nEco-friendly compaction is becoming increasingly important in the construction industry as companies seek to adopt greener practices, meet regulatory requirements, and enhance their environmental stewardship. By integrating sustainable compaction methods, projects can achieve better performance, durability, and environmental outcomes."
+    {
+    name: "Kitchen Appliance Installation",
+    icon: <ChefHat className="w-6 h-6" />, 
+    link:"/Services/kitchen-appliance-installation" ,
+    path : "kitchen-appliance-installation",
+    image: kitchenApplianceInstallation,
+    content:"Ensure your kitchen is fully functional with our kitchen appliance installation services. We install ovens, dishwashers, cooktops, range hoods, and other essential kitchen appliances with precision and care. Our team ensures that all electrical connections are made safely and correctly, avoiding the risks associated with improper installations. We take the stress out of kitchen upgrades, providing professional service that helps you get your kitchen up and running smoothly and safely."
     },
-    { 
-        name: "MGP Pipeline Works", 
-        icon: <Building2 className="w-6 h-6" /> , 
-        link:"/Services/mgp-pipeline-works", 
-        path : "mgp-pipeline-works", 
-        image: mgpPipelineWorks,
-        content:"**MGP pipeline works** involve the construction, maintenance, and operation of pipelines used to transport natural gas, oil, water, or other fluids over long distances. These pipelines are essential for the energy industry, providing a safe, efficient, and cost-effective means of transporting resources from production sites to distribution centers.\nMGP pipelines are designed to withstand high pressure, temperature variations, and environmental conditions to ensure the reliable and continuous flow of fluids. The construction process involves site preparation, trenching, welding, and laying the pipeline, followed by testing, commissioning, and monitoring for leaks or defects.\nPipeline maintenance includes regular inspections, corrosion protection, and repair activities to ensure the integrity and safety of the system. Advanced technologies like smart sensors, leak detection systems, and remote monitoring are used to enhance pipeline performance and prevent accidents.\nMGP pipeline works require compliance with safety regulations, environmental standards, and community engagement to address concerns related to land use, water resources, and public safety. Environmental impact assessments, mitigation measures, and emergency response plans are integral to pipeline projects to minimize risks and protect ecosystems.\nMGP pipelines play a critical role in the energy infrastructure, supporting the transportation of natural resources, fueling economic growth, and meeting the energy needs of communities. Sustainable practices, safety protocols, and technological innovations are key components of pipeline works."
+    {
+    name: "Doorbell Camera Installation",
+    icon: <BellRing className="w-6 h-6" /> , 
+    link:"/Services/doorbell-camera-installation",
+    path : "doorbell-camera-installation",
+    image: doorbellCameraInstallation,
+    content:"Upgrade your home security with a smart doorbell camera that allows you to see and communicate with visitors at your door, even when you’re not home. Our doorbell camera installation service provides professional installation of the latest smart doorbells, ensuring they are wired correctly and connected to your home network. These cameras provide real-time notifications, two-way communication, and video recording, adding an extra layer of security and convenience to your home."
     },
-    { 
-        name: "General Civil Works", 
-        icon: <Building2 className="w-6 h-6" />, 
-        link:"/Services/general-civil-works" , 
-        path : "general-civil-works", 
-        image: generalCivilWorks,
-        content:"**General civil works** encompass a wide range of construction activities related to civil engineering projects, infrastructure development, and public works. These works include tasks like site preparation, earthworks, foundation laying, road construction, drainage systems, and utility installations that form the backbone of modern societies.\nGeneral civil works are essential for building and maintaining infrastructure like roads, bridges, dams, buildings, and utilities that support economic activities, transportation, and public services. The projects involve various stages, from planning and design to execution, monitoring, and maintenance.\nSite preparation includes clearing land, grading, and soil compaction to create a stable foundation for construction. Earthworks involve excavation, filling, and compaction to shape the terrain and prepare it for development. Foundation laying is critical for building stability, ensuring structures can withstand loads and environmental conditions.\nRoad construction is a common type of general civil work, involving the design, construction, and maintenance of roadways for vehicular traffic. Drainage systems are installed to manage stormwater, prevent flooding, and protect infrastructure from water damage. Utility installations include water supply, sewage systems, electricity, and telecommunications networks that provide essential services to communities.\nGeneral civil works require expertise in engineering, project management, and construction techniques to ensure quality, safety, and compliance with regulations. Sustainable practices, environmental considerations, and community engagement are integral to successful civil works projects."
-    },
-
+    {
+    name: "Smart Home Integration",
+    icon: <SmartphoneNfc className="w-6 h-6" /> ,
+    link:"/Services/smart-home-integration" ,
+    path : "smart-home-integration",
+    image: smartHomeIntegration,
+    content:"Transform your house into a modern smart home with our smart home integration services. We install and configure a range of smart devices, including smart thermostats, lighting, door locks, and security systems, all controllable from your smartphone or voice-activated assistant. Our team ensures seamless integration between all devices, providing you with a cohesive smart home experience that enhances convenience, security, and energy efficiency. Enjoy greater control over your home with the power of technology."
+    }
 ]
