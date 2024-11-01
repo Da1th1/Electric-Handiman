@@ -25,9 +25,9 @@ export default function Navbar() {
             <a href="/Services" className={pathname === "/Services" ? "active" : ""}>
               Services
             </a>
-            <a href="/Projects" className={pathname === "/Projects" ? "inactive" : ""}>
+            {/* <a href="/Projects" className={pathname === "/Projects" ? "active" : ""}>
               Projects
-            </a>
+            </a> */}
             <a href="/About" className={pathname === "/About" ? "active" : ""}>
               About Us
             </a>
