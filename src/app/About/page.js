@@ -46,9 +46,6 @@ const AboutUs = () => {
        <BlurFade delay={0.25} inView>
        <h2>Dublin 13's Trusted Electrical Handyman</h2>
       <div className="about-profile">
-        
-        
-
         <div className="about-profile-image">
           <Image src={D13} alt="Mountain Side" />
         </div>
