@@ -6,7 +6,7 @@ import "../CSS/projects.css";
 import { useState,useMemo } from "react";
 import Footer from "../Components/Footer";
 import "../CSS/Components/Footer.css";
-import projects from "../static/Projects";
+import projects from "../static/_Projects";
 import { Search } from "lucide-react";
 import Image from "next/image";
 
