@@ -270,14 +270,15 @@ const LazyLoadImage = ({ src, alt, className }) => {
                     <div className="icon"><AwardIcon/></div>
                     <h3>Client Satisfaction</h3>
                     <p>Building strong relationships with our clients is essential 
-to 
-our 
-success. 
-We 
-maintain 
-open 
-communication and collaboration 
-throughout the entire construction process.</p>
+                        to 
+                        our 
+                        success. 
+                        We 
+                        maintain 
+                        open 
+                        communication and collaboration 
+                        throughout the entire construction process.
+                        </p>
                 </div>
             </div>
 

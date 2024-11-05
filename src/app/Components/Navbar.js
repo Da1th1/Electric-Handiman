@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="nav-content">
           {/* Wrap the logo with Link to redirect to Home */}
           <a href="/" className="logo">
-            <span width={35} height={30} alt="Electric Handiman.">ELECTRIC HAND💡MAN</span>
+            <span width={35} height={30} alt="Electric Handiman.">THE ELECTRIC HAND💡MAN</span>
           </a>
           
           <div className="nav-links">
